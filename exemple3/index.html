@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+       
+        <title>Threejs & Physics #3</title>
+        <style type="text/css">
+            body { 
+                margin: 0;
+                background-color: #000;
+                color: #000;
+                font-family: Monospace;
+                font-size: 13px;
+                line-height: 24px;
+               
+            }
+            
+            a{
+
+                text-decoration: underline;
+                 cursor: pointer;
+            }
+
+            #info {
+                position: absolute;
+                top: 0px;
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+                text-align: center;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                /*pointer-events: none;*/
+                z-index: 9; /* TODO Solve this in HTML */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="info">Threejs & Physics [exemple-3]<br>
+            <a href="https://github.com/maxcccp" target="_blank">Download GitHub</a>
+        </div>
+        <div id="container"></div>
+        
+        <script src="./../threejs/examples/js/libs/ammo.wasm.js"></script>
+        <script src="app.js" type="module"></script>
+    </body>
+</html>
